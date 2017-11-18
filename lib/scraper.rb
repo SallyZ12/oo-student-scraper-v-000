@@ -9,6 +9,7 @@ class Scraper
     index_page.css("div.roster-cards-container").each do |card|
         card.css(".student-card").each do |student|
           student_name = student.css(".student-name").text
+          student_location = student.css(".student-location").text
     binding.pry
       end
     end
