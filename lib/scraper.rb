@@ -10,7 +10,7 @@ class Scraper
         card.css(".student-card").each do |student|
           student_name = student.css(".student-name").text
           student_location = student.css(".student-location").text
-    binding.pry
+    # binding.pry
       end
     end
   end
