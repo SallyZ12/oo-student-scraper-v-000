@@ -8,7 +8,7 @@ class Scraper
       index_url = Nokogiri::HTML(open(index_url))
       students = []
     # doc.css.(".roster-cards-container")
-    binding.pry
+    # binding.pry
 
   end
 
